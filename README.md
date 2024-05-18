@@ -3,6 +3,14 @@
 **Note: The alias creation is optional and not required to run the script.**
 
 
+>Two different installs
+>1. install_with_alias_creation.sh
+>2. copy_combined.py
+
+>1. Creates path /home/$USER/combined_copy/copy_combined.py.
+>Prompts you for an alias (I use "copy" without quotes). 
+>The alias is added to your **.bashrc** with the path to $aliasname.py. Meaning, my alias is copy so I can just type copy in terminal where I want to combine. Typing copy in terminal will activate the copy_combined.sh, and subsequently the copy_combined.py. I do not have to add
+>2. Just download or use copy_combined.py and it just works like a normal python3 command with python3 /path/to/copy_combined.py /path/to/directory. **I have NOT tested without alias**
 ---
 
 ## Overview
