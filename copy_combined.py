@@ -70,10 +70,10 @@ combined_file_path = os.path.join(temporary_directory, combined_file_name)
 with open(combined_file_path, "w") as combined:
     for path in text_file_paths:
         combined.write(path + "\n")
-    combined.write("===============\n")
+    combined.write("===============")
     combined.write("\n")
     for file_path in text_file_paths:
-        combined.write(f"#{file_path}\n")
+        combined.write(f"\n\n#=#=#=#=#{file_path}#=#=#=#=#\n\n")
         with open(file_path, "r", encoding="utf-8") as src_file:
             combined.write(src_file.read())
             combined.write("\n")
